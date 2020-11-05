@@ -1,0 +1,64 @@
+body {
+  font-family:"courier Prime", monospace;
+  background-image: url("topography/topography.png") ;
+
+body
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+    text-transform: uppercase;
+
+    /*kurzor ráhúzására karakterekből rózsaszínből fehér lesz, a háttér szürkéből fekete lesz*/
+
+  }
+  li a {
+    display: block;
+    color:#ff0099;
+    text-align: center;
+    height: 50px;
+    padding: 14px 16px 0px;
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+   
+}
+  li a {
+    display: block;
+    color: rgb(36, 219, 19);
+    text-align: left;
+    padding: 100px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    
+    color: white;
+  }
+
+h1 {
+    color: red;
+}
+p {
+    color: grey;
+    font-size: 24px;
+}
+#logo {
+    position: absolute;
+    padding: 15px 10%;    
+       
+}
+.separator {
+  font-size: 30pt;
+
+  text-align: center;
+}
